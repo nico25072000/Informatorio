@@ -1,6 +1,8 @@
 import random
 
-print('\nEl juego es: tenes que adivinar el numero\n')
+nombre_usuario = input('\nIngrese nombre de usuario: ')
+
+print(f'\nHola! {nombre_usuario}, el juego a jugar es: tenes que adivinar el numero\n')
 print('El numero adivinar esta entre 1 y 100, y tenes 8 intentos para poder adivinarlo\n')
 
 aleatorio = random.randint(1, 100)
